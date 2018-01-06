@@ -1,0 +1,97 @@
+.ItemSummary{
+	@include display-flex;
+	@include flex-direction(column);
+	padding: 10px 0px;
+	width: 60%;
+	
+	@media screen and (max-width: $ItemBlock-width + 20px) {
+		min-height: 55%;
+    	width: 100%;
+  	}
+	&-head{
+		@include display-flex;
+		@include flex-direction(row);
+		@include flex-grow(1);
+		max-height: 33px;
+		margin-bottom: 10px;
+		&-title{
+			@include flex-shrink(0);
+			background-image: url(../imgs/title.svg);
+			background-size: cover;
+			color: $secondary-text-color;
+			font-weight: bold;
+			padding: 5px 7% 5px 14%;
+		}
+		&-date{
+			@include align-self(flex-end);
+			color: #7d97ad; //Same as used in illustrator
+			font-family: 'OpenSans-ExtraBold' !important;
+			font-size: 15px;	
+			margin-right: auto;
+			margin-left: 10px;
+			&--text{
+				font-family: 'Swessra-medium' !important;
+				font-weight: bold;
+			}
+		}
+	}
+	&-desc{
+		color: inherit;
+		font-size: 16px;
+		padding: 0px 10px;
+		margin: 15px 0px;
+	}
+	&-price{
+		color: inherit;
+		font-weight: bold;
+		font-size: 32px;
+		line-height: 42px;
+		padding: 0px 10px;
+		margin: 15px 0px 10px;
+		text-align: right;
+		&-num{
+			font-family: 'OpenSans-ExtraBold';
+		}
+		&-text{
+			font-family: 'Swessra-medium';
+			font-size: 90%;
+		}
+	}
+	&-action{
+		@include display-flex;
+		@include flex-direction(row);
+		@include flex-grow(1);
+		@include align-items(flex-end);
+		padding: 0px 10px;
+		margin: 10px 0px;
+		&-btn{
+			box-shadow:0 0 7px 0 #0032504d;
+			@include transition(all 150ms linear);
+			background-color: #02cbba;
+			border-radius: 5px;
+			color: $secondary-text-color;
+			cursor: pointer;
+			font-size: 16px;
+			height: 42px;
+			line-height: 32px;
+			padding: 6px 46px;
+			text-align: center;
+			text-align: center;
+			text-decoration: none;
+			&:hover{
+				box-shadow:0 0 15px 0 #0032504d;
+			}
+		}
+		&-views{
+			@include display-flex;
+			@include align-items(center);
+			@include align-self(flex-end);
+			color: inherit;
+			font-weight: bold;
+			font-size: 15px;	
+			font-family: 'OpenSans-Regular';
+			margin-right: auto;
+			margin-left: 10px;
+		}
+	}
+}

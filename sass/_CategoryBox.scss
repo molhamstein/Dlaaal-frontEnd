@@ -1,0 +1,52 @@
+.CategoryBox{
+	@include display-flex;
+	@include flex-direction(column);
+	@include transition(all 200ms linear);
+	background-color: #fff;
+	box-shadow: 0 0 11px 5px #d0d0d04d;
+	border: 1px solid #e1e1e1;
+	border-radius: 5px;
+	height: $CategoryBox-height;
+	margin: 0px 10px 15px 10px;
+	width: $CategoryBox-width;
+	&:hover{
+		@include transition(all 200ms linear);
+		box-shadow: 0 0 15px 10px #d0d0d04d;
+		margin-top: -5px;
+	}
+	@media screen and(max-width: 640px ){
+		width: 100% ;
+	}
+	&-head{
+		@include display-flex;
+		background-size: cover;
+		background-blend-mode: overlay;
+		height: 128px;
+		&-title{
+			@include align-self(center);
+			color: $secondary-text-color;
+			font-size: 20px;
+			padding-right: 16px;
+		}
+	}
+	&-body{
+		height: auto;
+		ol{}
+		ul{}
+		li{
+			padding: 3px 0px 3px 5px;
+			&:hover{
+				color: shade(#0ED8C5,15%);
+				cursor: pointer;
+			}
+		}
+		a{
+			text-decoration: none;
+			color: shade(#0ED8C5,15%);
+			&:hover{
+				color: #0ED8C5;
+				cursor: pointer;
+			}
+		}
+	}
+}

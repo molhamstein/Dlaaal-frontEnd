@@ -1,0 +1,20 @@
+.Jumbotron{
+	@include display-flex;
+	@include flex-direction(column);
+	// margin: 15px;
+	padding-top: 80px;
+	text-align: center;
+	
+	&-title{
+		color: $secondary-text-color; 
+		font-size: 35px;
+		line-height: 48px;
+		padding: 20px 15px 15px 15px;
+	}
+	&-subtitle{
+		color: inherit; 
+		font-size: 16px;
+		line-height: 22px;
+		padding: 15px;
+	}
+}

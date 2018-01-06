@@ -1,0 +1,41 @@
+.ContentMenu{
+	@include display-flex;
+	@include flex-direction(row-reverse);
+	@include justify-content(space-between);
+	min-height: 75px;
+	width: 100%;
+	padding: 10px 25px;
+	@media screen and (max-width: 420px){
+		padding: 10px 5px;
+		&-item{
+			margin-left: 12px !important;
+			&--logo{
+				margin-left: auto !important;
+			}
+		}
+	}
+	&-item{
+		color: inherit;
+		margin-left: 20px;
+		text-decoration: none;
+		&--iconDots{
+			// background-image: url('data:image/svg+xml;utf8,<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="408px" height="408px" viewBox="0 0 408 408" style="enable-background:new 0 0 408 408;" xml:space="preserve"><g><g class="u-dots" id="more-vert"><path class="u-dots" d="M204,102c28.05,0,51-22.95,51-51S232.05,0,204,0s-51,22.95-51,51S175.95,102,204,102z M204,153c-28.05,0-51,22.95-51,51 s22.95,51,51,51s51-22.95,51-51S232.05,153,204,153z M204,306c-28.05,0-51,22.95-51,51s22.95,51,51,51s51-22.95,51-51 S232.05,306,204,306z"/></g></g></svg>');
+			background: url('../imgs/c-dots.svg') no-repeat;
+			background-size: contain;
+    		cursor: pointer;
+    		height: 24px;
+    		min-width: 24px;
+    		&:hover{
+
+    		}
+		}
+		&--logo{
+			margin-left: auto;
+			max-width: 75px;
+			min-width: 32px;
+		}
+		&:hover{
+			color: tint($primary-text-color,10%);
+		}
+	}
+}

@@ -1,0 +1,13 @@
+.CategoriesContainer{
+	@include display-flex;
+	@include flex-wrap(wrap);
+	@include justify-content(space-around);
+	// @include justify-content(space-between);
+	background-color: $site-bg-color;
+	padding: 15px 15px 0 15px;
+	// max-width: $site-grid-width;
+	width: 100%;
+	@media screen and (max-width: ($CategoryBox-width * 4) + (20 * 4) + 2px){
+		@include justify-content(space-around);
+	}
+}

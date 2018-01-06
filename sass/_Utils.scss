@@ -1,0 +1,153 @@
+*,
+*::before,
+*::after {
+  @include box-sizing(inherit);
+}
+
+html {
+  @include box-sizing(border-box);
+  color: $primary-text-color;
+  direction: rtl;
+  font-family: 'Swessra-medium';
+  font-size: 13px;
+  line-height: 22px;
+  text-align: right;
+  -webkit-tap-highlight-color: transparent;
+}
+body {
+  background-color: #fcfcfc;
+  color: $primary-text-color;
+  font-family: 'Swessra-medium';
+  margin: 0;
+  overflow-x: hidden;
+  padding: 0;
+  width: 100%;
+}
+/*Down-right pointing*/
+.u-triangleDownRight {
+    width: 100%;
+    height: 0;
+    padding-top:90%;
+    overflow: hidden;
+}
+.u-triangleDownRight:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    margin-top:-500px;
+     
+    border-top: 500px solid transparent;
+    border-right: 500px solid #F6F7F8;
+}
+
+.u-customBtn{
+	@include display-flex;
+	@include flex-direction(row-reverse);
+	// @include align-items(baseline);
+	@include transition(all 150ms linear);
+	@media screen and (max-width: 500px){
+		img{
+			width: 16px !important;
+		}
+	}
+	img{
+		width: 12px;
+	}
+	box-shadow:0 0 15px 0 #0032504d;
+	background-color: #02cbba;
+	border-radius: 5px;
+	color: #fff !important;
+	cursor: pointer;
+    font-size: 16px;
+    height: 48px;
+    line-height: 36px;
+    padding: 8px 20px;
+    text-align: center;
+	text-decoration: none;
+	&:hover{
+		box-shadow:0 0 25px 0 #0032504d;
+	}
+}
+.u-num{
+	font-family: 'OpenSans-ExtraBold' !important;
+}
+.u-trans{
+	@include transition(all 1s ease-in-out);
+}
+.u-hidden{
+	display: none;
+}
+.u-showOn700{
+	@media screen and (max-width: 700px){
+		display: block !important;
+	}
+}
+.u-hideOn700{
+	@media screen and (max-width: 700px){
+		display: none !important;
+	}
+}
+.u-hideOnLarge{
+	@media screen and (max-width: 1200px){
+		display: none;
+	}
+}
+.u-hideOnMedium{
+	@media screen and (max-width: 500px){
+		display: none;
+	}
+}
+.u-hideOnSmall{
+	@media screen and (max-width: 340px){
+		display: none;
+	}
+}
+.u-flex{
+	@include display-flex;
+}
+.u-flexAlignSelfEnd{
+	@include align-self(flex-end);
+}
+.u-flexAlignSelfStart{
+	@include align-self(flex-start);
+}
+.u-flexAlignCenter{
+	@include align-items(center);
+}
+.u-flexJustifyStart{
+	@include justify-content(flex-start);
+}
+.u-flexRowReverse{
+	@include flex-direction(row-reverse);
+}
+.u-flexWrap{
+	@include flex-wrap(wrap);
+}
+.u-fill{
+	width: 100%;
+}
+.u-after10p{
+	margin-left: 10px !important;
+}
+.u-before10p{
+	margin-right: 10px !important;
+}
+.u-above10p{
+	margin-bottom: 10px !important;
+}
+.u-below10p{
+	margin-top: 10px !important;
+}
+.u-afterAuto{
+	margin-left: auto !important;
+}
+.u-beforeAuto{
+	margin-right: auto !important;
+}
+.u-aboveAuto{
+	margin-bottom: auto !important;
+}
+.u-belowAuto{
+	margin-top: auto !important;
+}

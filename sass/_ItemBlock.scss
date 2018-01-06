@@ -1,0 +1,35 @@
+.ItemBlock{
+	@include display-flex;
+	@include flex-direction(row);
+	@include flex-wrap(nowrap);
+	@include flex-grow(1);
+	// @include box-shadow(0,0,30px,0,#d0d0d04d);
+	// box-shadow: 0 0 30px 0 #d0d0d04d;
+	background-color: #fff;
+	box-shadow: 0 0 11px 5px #d0d0d04d;
+	border: 1px solid #e1e1e1;
+	// max-width: 500px;
+	// max-width: 1180px;
+	max-width: $site-grid-width - 20px;
+	margin: 0px 15px 30px 15px;
+	min-height: 250px;
+	min-width: $ItemBlock-width;
+	@media screen and (max-width: $ItemBlock-width + 20px) {
+		@include flex-direction(row-reverse !important) ;
+		@include flex-wrap(wrap !important) ;
+		min-height: 444px !important;
+		min-width: 320px !important;
+		&-img{	
+			height: 45% !important;
+			width: 100% !important;
+		}
+  	}
+  	// @media screen and (max-width: 1042px){
+  	// 	max-width: 1020px;
+  	// }
+	&-img{
+    	background-position: center;
+		background-size: cover;
+		width: 45%;
+	}
+}

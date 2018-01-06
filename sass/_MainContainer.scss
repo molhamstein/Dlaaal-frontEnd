@@ -1,0 +1,9 @@
+.MainContainer{
+	background: #02b2e3;
+	@include background-image(linear-gradient(to right, #02b2e3 0%, #02cbba 100%));
+	background-repeat: repeat;
+	// border-left: 1px solid #F0F0F0;
+ 	// border-right: 1px solid #F0F0F0;
+	max-width: $site-width;
+	margin: 0 auto;
+}

@@ -1,0 +1,10 @@
+.ItemsContainer{
+	@include display-flex;
+	@include justify-content(space-around);
+	@include flex-wrap(wrap);
+	background-color: #f6f7f8;
+	padding: 25px 20px;
+	// max-width: $site-grid-width;
+	width: 100%;
+	margin-top: 0px;
+}
