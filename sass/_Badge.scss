@@ -1,0 +1,29 @@
+.Badge {
+  position: relative;
+  &[data-badge]::before {
+    font-family: 'OpenSans-Regular';
+    // border-radius: 5px;
+    background: #f23a00;
+    // background-clip: padding-box;
+    border: 1px solid #fff;
+    color: $secondary-text-color;
+    content: attr(data-badge);
+    display: inline-block;
+    direction: ltr;
+    font-size: 13px;
+    font-style: normal; 
+    min-height: 10px;
+    line-height: 12px;
+    min-width: 10px;
+    padding: 3px 5px;
+    text-align: center;
+    // transform: translate(2px, -6px);
+    white-space: nowrap;
+  }
+  &--center{
+    &[data-badge]::before{
+      border-radius: 50%;
+      transform: translate(7px, 10px);
+    }
+  }
+}

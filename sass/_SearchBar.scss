@@ -1,3 +1,5 @@
+@import "compass";
+
 .SearchBar{
 	@include display-flex;
 	@include flex-direction(row-reverse);

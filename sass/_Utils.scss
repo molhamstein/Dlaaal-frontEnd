@@ -1,3 +1,5 @@
+@import "compass";
+
 *,
 *::before,
 *::after {
@@ -69,6 +71,9 @@ body {
 		box-shadow:0 0 25px 0 #0032504d;
 	}
 }
+.u-posRelative{
+	position: relative;
+}
 .u-num{
 	font-family: 'OpenSans-ExtraBold' !important;
 }
@@ -106,6 +111,12 @@ body {
 .u-flex{
 	@include display-flex;
 }
+.u-flexRow{
+	@include flex-direction(row);
+}
+.u-flexCol{
+	@include flex-direction(column);
+}
 .u-flexAlignSelfEnd{
 	@include align-self(flex-end);
 }
@@ -127,6 +138,18 @@ body {
 .u-fill{
 	width: 100%;
 }
+.u-block{
+	display: block;
+}
+.u-inlineBlock{
+	display: inline-block;
+}
+.u-alignTop{
+	vertical-align: top;
+}
+.u-textAlignRight{
+	text-align: right;
+}
 .u-after10p{
 	margin-left: 10px !important;
 }
@@ -138,6 +161,9 @@ body {
 }
 .u-below10p{
 	margin-top: 10px !important;
+}
+.u-below5p{
+	margin-top: 5px !important;
 }
 .u-afterAuto{
 	margin-left: auto !important;

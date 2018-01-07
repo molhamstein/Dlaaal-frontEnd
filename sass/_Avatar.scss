@@ -1,0 +1,29 @@
+@import "compass";
+
+.Avatar{
+	border: 0px;
+	border-radius: 50%;
+  	box-shadow: 0 0 5px 5px #d0d0d04d;
+	position: relative;
+  	vertical-align: middle;
+  	&--sm {
+  		height: 26px;
+		img {width: 26px;}
+	}
+	&--md {
+		height: 34px;
+		img {width: 34px;}
+	}
+	&--lg {
+		height: 42px;
+		img {width: 42px;}
+	}
+	img {
+	    border-radius: 50%;
+	    height: 100%;
+	    background-color: #fff;
+  	}
+}
+figure{
+	margin:0;
+}

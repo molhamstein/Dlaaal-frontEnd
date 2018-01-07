@@ -1,3 +1,5 @@
+@import "compass";
+
 .FilterSearchBar{
 	@include display-flex;
 	@include flex-direction(row-reverse);
@@ -79,6 +81,18 @@
 		position: relative;
 		vertical-align: middle;
 		width: 100%;
+		&::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+		  color: #999999;
+		}
+		&::-moz-placeholder { /* Firefox 19+ */
+		  color: #999999;
+		}
+		&:-ms-input-placeholder { /* IE 10+ */
+		  color: #999999;
+		}
+		&:-moz-placeholder { /* Firefox 18- */
+		  color: #999999;
+		}
 	}
 	select{
 		@include appearance(none);
@@ -86,7 +100,7 @@
 		border: 1px solid transparent;
 		border-right: 0px;border-left: 0px;
 		border-radius: 0px;
-		color: #999999;
+		color: #999999 !important;
 		direction: rtl;
 		height: $searchBar-height;
 		font-size: 13px;

@@ -1,8 +1,11 @@
+@import "compass";
+
 $site-width: 100%;
 $site-grid-width: 1200px;
 $ItemBlock-width: ($site-grid-width / 2 ) - 20px;
 $CategoryBox-width: 290px;
 $CategoryBox-height: auto;
+$primary-color: #02CBBA;
 $primary-text-color: #525C65;
 $secondary-text-color: #fff;
 $searchBar-height: 54px;

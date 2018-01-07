@@ -1,3 +1,5 @@
+@import "compass";
+
 .ItemSummary{
 	@include display-flex;
 	@include flex-direction(column);

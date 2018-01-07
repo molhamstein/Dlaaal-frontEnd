@@ -1,3 +1,5 @@
+@import "compass";
+
 .MainContainer{
 	background: #02b2e3;
 	@include background-image(linear-gradient(to right, #02b2e3 0%, #02cbba 100%));
