@@ -1,0 +1,9 @@
+@import "compass";
+
+.SignInModuleContainer{
+	@include display-flex;
+	@include flex-wrap(wrap);
+	@include align-items(center);
+	@include justify-content(center);
+   width: 100%;
+}

@@ -1,7 +1,72 @@
 @import "compass";
 
 .Footer{
+	@include display-flex;
+	@include flex-wrap(wrap);
 	background-color: #333;
-	min-height: 80px;
+	min-height: 120px;
+	color: white;
+	font-size: 25px;
 	width: 100%;
+	&-about {
+		@include flex-grow(3);
+		 padding: 60px;
+		 &-title {
+		 }
+		 &-body {
+			 padding-top:20px;
+			 font-size: 15px;
+			 color: #adadad;
+		 }
+		 &-bar {
+			 font-size: 12px;
+			 @include display-flex;
+			 @include flex-wrap(wrap);
+			 @include justify-content(space-between);
+			 padding-top:20px;
+			 &-item {
+				 width: 30%;
+			 }
+		 }
+	}
+	&-contact {
+		@include flex-grow(1);
+		 padding: 60px;
+	}
+	&-right {
+
+		@include display-flex;
+		@include align-items(center);
+		@include justify-content(center);
+		background-color: white;
+		height: 80px;
+		width: 100%;
+		font-size: 12px;
+		&-text {
+			border: 1px solid #e1e1e1;
+			@include display-flex;
+			@include align-items(center);
+			@include justify-content(center);
+			height: 32px;
+			width: 20%;
+			color:black;
+			border-radius: 3px;
+			@media screen and (max-width: 600px) {
+		    	width: 35%;
+		  	}
+		}
+		&-logo {
+      border: 1px solid #e1e1e1;
+			@include display-flex;
+			@include align-items(center);
+			@include justify-content(center);
+			 height: 32px;
+			 width: 20%;
+       background-color: #333;
+			 border-radius: 5px;
+			 @media screen and (max-width: 600px) {
+ 		    	width: 35%;
+ 		  	}
+		}
+	}
 }

@@ -1,0 +1,7 @@
+@import "compass";
+.FullContainer{
+	@include display-flex;
+	@include flex-wrap(wrap);
+	@include align-items(flex-start);
+	height: 100%;
+}

@@ -1,0 +1,120 @@
+@import "compass";
+#SignUpModal {
+  display: none;
+}
+.u-textPrimaryColor {
+  display: inline-block;
+  color: $primary-color;
+}
+.SignUpModule {
+  @include display-flex;
+  @include flex-wrap(wrap);
+  @include align-items(flex-start);
+	width: 35%;
+  background-color: white;
+  @media screen and (max-width: 700px) {
+    width: 80%;
+    }
+  &-header {
+    @include display-flex;
+    @include flex-direction(row);
+    text-align: center;
+    background-color:$primary-color;
+    color: $secondary-text-color;
+    width: 100%;
+    line-height: 50px;
+    font-size: 14px;
+    &-title {
+      padding-right:10px;
+      text-align: right;
+      @include flex-grow(4);
+    }
+    &-close {
+     @include flex-grow(1);
+     background-color: #02CBBA;
+     background-image: url(../imgs/magnifier.svg);
+     background-repeat: no-repeat;
+     background-size: 20px 20px;
+     background-position: center;
+     border-radius: 5px 0px 0px 5px;
+     cursor: pointer;
+     height: 48px;
+     max-width: 50px;
+     min-width: 50px;
+    }
+  }
+  &-body {
+    @include display-flex;
+    @include flex-direction(row);
+    @include justify-content(center);
+    @include flex-wrap(wrap);
+    padding: 5px;
+    width: 100%;
+    background-color: white;
+    &-inputcontainer {
+      width: 85%;
+      max-width: 95%;
+      padding: 5px 0;
+      label {
+        color: $primary-text-color;
+        font-size: 12px;
+      }
+      &-text {
+        width: 100%;
+        border: 1px solid transparent;
+        color: $primary-text-color;
+        border-bottom: 1px solid $primary-text-color;
+        height: 35px;
+        font-size: 18px;
+        padding-bottom: 4px;
+        padding-top: 5px;
+      }
+      &-select {
+        width: 100%;
+        font-size: 18px;
+        height: 35px;
+        border: 1px solid transparent;
+        background-color: #fff;
+        color: $primary-text-color;
+        border-bottom: 1px solid $primary-text-color;
+      }
+      &-checkboxcontainer {
+        margin-top: 26px;
+      }
+      &-checkboxlabel {
+        vertical-align:middle;
+
+      }
+    }
+    &-btn{
+      box-shadow:0 0 7px 0 #0032504d;
+      @include transition(all 150ms linear);
+      background-color: $primary-text-color;
+      border-radius: 5px;
+      color: $secondary-text-color;
+      cursor: pointer;
+      font-size: 16px;
+      height: 42px;
+      line-height: 32px;
+      margin-top: 40px;
+      padding: 6px 46px;
+      text-align: center;
+      text-align: center;
+      text-decoration: none;
+      &:hover{
+        box-shadow:0 0 15px 0 #0032504d;
+      }
+    }
+  }
+  &-footer {
+    margin-top: 40px;
+    background-color: white;
+    text-align: center;
+    background-color:white;
+    color: $primary-text-color;
+    width: 100%;
+    line-height: 50px;
+    font-size: 14px;
+  }
+
+}

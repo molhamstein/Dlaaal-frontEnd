@@ -1,0 +1,33 @@
+@import "compass";
+
+.CategoryBoxSub{
+	@include display-flex;
+	@include flex-direction(column);
+	@include justify-content(center);
+	background-color: #fff;
+	margin: 50px 0;
+	box-shadow: 0 0 11px 5px #d0d0d0;
+	background-color: #262521;
+	border: 1px solid #e1e1e1;
+	border-radius: 5px;
+	height: $CategoryBox-height;
+	width: 24%;
+	@media screen and(max-width: 640px ){
+		width: 100% ;
+		margin: 20px 0;
+	}
+	&-head{
+		@include display-flex;
+		@include justify-content(center);
+		background-size: cover;
+		background-color: #383838;
+		background-blend-mode: overlay;
+		height: 128px;
+		&-title{
+			@include align-self(center);
+			color: $secondary-text-color;
+			font-size: 20px;
+		}
+	}
+
+}

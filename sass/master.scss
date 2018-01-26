@@ -1,5 +1,4 @@
 @import "compass";
-@import "normalize";
 @import "_vars.scss";
 @import "_Utils.scss";
 @import "_Avatar.scss";
@@ -16,6 +15,7 @@
 @import "_Footer.scss";
 @import "_CategoriesContainer.scss";
 @import "_CategoryBox.scss";
+@import "_CategoryBoxSub.scss";
 @import "_ContentMenu.scss";
 @import "_DropMenu.scss";
 @import "_GridContainer.scss";
@@ -24,3 +24,12 @@
 @import "_ItemsContainer.scss";
 @import "_TopMenu.scss";
 @import "_Typography.scss";
+@import "_FiltersPanel.scss";
+@import "_CategoryBar.scss";
+@import "_FullContainer.scss";
+@import "_FiltersPanelContainer.scss";
+@import "_SignUpModule.scss";
+@import "_SignUpModuleContainer.scss";
+@import "_SignInModule.scss";
+@import "_SignInModuleContainer.scss";
+@import "_ModalContainer.scss";

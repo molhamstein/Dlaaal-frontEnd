@@ -21,7 +21,7 @@
 		@include flex-wrap(wrap !important) ;
 		min-height: 444px !important;
 		min-width: 320px !important;
-		&-img{	
+		&-img{
 			height: 45% !important;
 			width: 100% !important;
 		}
@@ -34,4 +34,5 @@
 		background-size: cover;
 		width: 45%;
 	}
+
 }

@@ -1,0 +1,124 @@
+@import "compass";
+
+
+.FiltersPanel {
+  @include display-flex;
+  @include flex-wrap(wrap);
+  @include justify-content(space-around);
+  background-color: #fff;
+  box-shadow: 0 0 11px 5px #d0d0d04d;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  &-header {
+    @include display-flex;
+    @include flex-direction(row);
+    border: 1px solid #e1e1e1;
+    text-align: center;
+    color: $secondary-text-color;
+    width: 100%;
+    line-height: 50px;
+    background-color:$primary-color;
+    &-title {
+      padding-right:10px;
+      text-align: right;
+      @include flex-grow(4);
+    }
+    &-close {
+     @include flex-grow(1);
+     background-color: #02CBBA;
+     background-repeat: no-repeat;
+     background-size: 20px 20px;
+     background-position: center;
+     border-radius: 5px 0px 0px 5px;
+     cursor: pointer;
+     height: 48px;
+     max-width: 50px;
+     min-width: 50px;
+    }
+    &-collapse {
+      @include flex-grow(1);
+      background-color: #02CBBA;
+      font-size: 20px;
+
+      background-repeat: no-repeat;
+      background-size: 20px 20px;
+      background-position: center;
+      border-radius: 5px 0px 0px 5px;
+      cursor: pointer;
+      height: 48px;
+      max-width: 50px;
+      min-width: 50px;
+      display: none;
+      @media screen and(max-width: 800px ){
+    		display: inline-block;
+    	}
+    }
+  }
+  &-body {
+    @include display-flex;
+    @include flex-direction(row);
+    @include justify-content(center);
+    @include flex-wrap(wrap);
+    padding: 5px;
+    width: 100%;
+    background-color: white;
+
+    &-inputcontainer {
+      width: 95%;
+      max-width: 95%;
+      padding: 5px 0;
+      label {
+        color: $primary-text-color;
+        font-size: 12px;
+      }
+      &-text {
+        width: 100%;
+        border: 1px solid transparent;
+        color: $primary-text-color;
+        border-bottom: 1px solid $primary-text-color;
+        height: 35px;
+        font-size: 18px;
+        padding-bottom: 4px;
+        padding-top: 5px;
+      }
+      &-select {
+        width: 100%;
+        font-size: 18px;
+        height: 35px;
+        border: 1px solid transparent;
+        background-color: #fff;
+        color: $primary-text-color;
+
+        border-bottom: 1px solid $primary-text-color;
+      }
+    }
+  }
+  &-footer {
+    @include display-flex;
+    @include flex-grow(1);
+    @include justify-content(center);
+    @include align-items(flex-end);
+    line-height: 50px;
+    width: 100%;
+    background-color: $primary-color;
+    &-searchbox {
+      background-color: #02CBBA;
+      background-image: url(../imgs/magnifier.svg);
+      background-repeat: no-repeat;
+      background-size: 22px 22px;
+      background-position: center;
+      border-radius: 5px 0px 0px 5px;
+      cursor: pointer;
+      height: 48px;
+      max-width: 50px;
+      min-width: 50px;
+    }
+  }
+textarea, input, button ,select { outline: none; }
+@media screen and(max-width: 640px ){
+  width: 100% ;
+}
+
+
+}

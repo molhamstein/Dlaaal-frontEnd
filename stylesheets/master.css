@@ -1,271 +1,3 @@
-/*! normalize.css v3.0.0 | MIT License | git.io/normalize */
-/*! normalize.css v3.0.0 | HTML5 Display Definitions | MIT License | git.io/normalize */
-/* line 9, ../../../.gem/ruby/2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_html5.scss */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-nav,
-section,
-summary {
-  display: block;
-}
-
-/* line 29, ../../../.gem/ruby/2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_html5.scss */
-audio,
-canvas,
-progress,
-video {
-  display: inline-block;
-  vertical-align: baseline;
-}
-
-/* line 40, ../../../.gem/ruby/2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_html5.scss */
-audio:not([controls]) {
-  display: none;
-  height: 0;
-}
-
-/* line 47, ../../../.gem/ruby/2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_html5.scss */
-[hidden],
-template {
-  display: none;
-}
-
-/*! normalize.css v3.0.0 | Base | MIT License | git.io/normalize */
-/* line 11, ../../../.gem/ruby/2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_base.scss */
-html {
-  font-family: sans-serif;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-}
-
-/* line 19, ../../../.gem/ruby/2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_base.scss */
-body {
-  margin: 0;
-}
-
-/*! normalize.css v3.0.0 | Links | MIT License | git.io/normalize */
-/* line 9, ../../../.gem/ruby/2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_links.scss */
-a {
-  background: transparent;
-}
-
-/* line 15, ../../../.gem/ruby/2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_links.scss */
-a:active,
-a:hover {
-  outline: 0;
-}
-
-/*! normalize.css v3.0.0 | Typography | MIT License | git.io/normalize */
-/* line 9, ../../../.gem/ruby/2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
-abbr[title] {
-  border-bottom: 1px dotted;
-}
-
-/* line 15, ../../../.gem/ruby/2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
-b,
-strong {
-  font-weight: bold;
-}
-
-/* line 22, ../../../.gem/ruby/2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
-dfn {
-  font-style: italic;
-}
-
-/* line 29, ../../../.gem/ruby/2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
-
-/* line 36, ../../../.gem/ruby/2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
-mark {
-  background: #ff0;
-  color: #000;
-}
-
-/* line 43, ../../../.gem/ruby/2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
-small {
-  font-size: 80%;
-}
-
-/* line 49, ../../../.gem/ruby/2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
-sub,
-sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
-}
-
-/* line 57, ../../../.gem/ruby/2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
-sup {
-  top: -0.5em;
-}
-
-/* line 61, ../../../.gem/ruby/2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
-sub {
-  bottom: -0.25em;
-}
-
-/*! normalize.css v3.0.0 | Embedded Content | MIT License | git.io/normalize */
-/* line 9, ../../../.gem/ruby/2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_embeds.scss */
-img {
-  border: 0;
-}
-
-/* line 15, ../../../.gem/ruby/2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_embeds.scss */
-svg:not(:root) {
-  overflow: hidden;
-}
-
-/*! normalize.css v3.0.0 | Figures | MIT License | git.io/normalize */
-/* line 9, ../../../.gem/ruby/2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_groups.scss */
-figure {
-  margin: 1em 40px;
-}
-
-/* line 15, ../../../.gem/ruby/2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_groups.scss */
-hr {
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  height: 0;
-}
-
-/* line 23, ../../../.gem/ruby/2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_groups.scss */
-pre {
-  overflow: auto;
-}
-
-/* line 29, ../../../.gem/ruby/2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_groups.scss */
-code,
-kbd,
-pre,
-samp {
-  font-family: monospace, monospace;
-  font-size: 1em;
-}
-
-/*! normalize.css v3.0.0 | Forms | MIT License | git.io/normalize */
-/* line 15, ../../../.gem/ruby/2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
-button,
-input,
-optgroup,
-select,
-textarea {
-  color: inherit;
-  font: inherit;
-  margin: 0;
-}
-
-/* line 27, ../../../.gem/ruby/2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
-button {
-  overflow: visible;
-}
-
-/* line 36, ../../../.gem/ruby/2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
-button,
-select {
-  text-transform: none;
-}
-
-/* line 47, ../../../.gem/ruby/2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
-button,
-html input[type="button"],
-input[type="reset"],
-input[type="submit"] {
-  -webkit-appearance: button;
-  cursor: pointer;
-}
-
-/* line 57, ../../../.gem/ruby/2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
-button[disabled],
-html input[disabled] {
-  cursor: default;
-}
-
-/* line 64, ../../../.gem/ruby/2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-  border: 0;
-  padding: 0;
-}
-
-/* line 73, ../../../.gem/ruby/2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
-input {
-  line-height: normal;
-}
-
-/* line 83, ../../../.gem/ruby/2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
-input[type="checkbox"],
-input[type="radio"] {
-  box-sizing: border-box;
-  padding: 0;
-}
-
-/* line 93, ../../../.gem/ruby/2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
-  height: auto;
-}
-
-/* line 102, ../../../.gem/ruby/2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
-input[type="search"] {
-  -webkit-appearance: textfield;
-  -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
-  box-sizing: content-box;
-}
-
-/* line 113, ../../../.gem/ruby/2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
-
-/* line 120, ../../../.gem/ruby/2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
-fieldset {
-  border: 1px solid #c0c0c0;
-  margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em;
-}
-
-/* line 129, ../../../.gem/ruby/2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
-legend {
-  border: 0;
-  padding: 0;
-}
-
-/* line 136, ../../../.gem/ruby/2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
-textarea {
-  overflow: auto;
-}
-
-/* line 143, ../../../.gem/ruby/2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
-optgroup {
-  font-weight: bold;
-}
-
-/*! normalize.css v3.0.0 | Tables | MIT License | git.io/normalize */
-/* line 9, ../../../.gem/ruby/2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_tables.scss */
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-/* line 14, ../../../.gem/ruby/2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_tables.scss */
-td,
-th {
-  padding: 0;
-}
-
 /* line 3, ../sass/_Utils.scss */
 *,
 *::before,
@@ -980,13 +712,14 @@ figure {
 
 /* line 3, ../sass/_MainContainer.scss */
 .MainContainer {
-  background: #02b2e3;
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAyYjJlMyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAyY2JiYSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center fixed;
+  background-image: url(../imgs/header.jpg);
+  background-repeat: no-repeat;
   background-size: 100%;
-  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #02b2e3), color-stop(100%, #02cbba));
-  background-image: -moz-linear-gradient(left, #02b2e3 0%, #02cbba 100%);
-  background-image: -webkit-linear-gradient(left, #02b2e3 0%, #02cbba 100%);
-  background-image: linear-gradient(to right, #02b2e3 0%, #02cbba 100%);
   background-repeat: repeat;
   max-width: 100%;
   margin: 0 auto;
@@ -1009,56 +742,6 @@ figure {
   z-index: 999;
 }
 
-/* line 3, ../sass/_HeaderBackground.scss */
-.HeaderBackground {
-  overflow: hidden;
-  position: relative;
-  z-index: 1;
-}
-/* line 7, ../sass/_HeaderBackground.scss */
-.HeaderBackground::before {
-  content: '';
-  background-attachment: fixed;
-  background-position: center;
-  background-image: url(../imgs/headerPattern.png);
-  background-image: url(../imgs/headerPattern.svg);
-  background-repeat: repeat;
-  background-size: 15%;
-  content: ' ';
-  display: block;
-  height: 100%;
-  left: 0;
-  opacity: 0.7;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  z-index: -1;
-}
-@media screen and (max-width: 1200px) {
-  /* line 7, ../sass/_HeaderBackground.scss */
-  .HeaderBackground::before {
-    background-size: 20%;
-  }
-}
-@media screen and (max-width: 1024px) {
-  /* line 7, ../sass/_HeaderBackground.scss */
-  .HeaderBackground::before {
-    background-size: 25%;
-  }
-}
-@media screen and (max-width: 740px) {
-  /* line 7, ../sass/_HeaderBackground.scss */
-  .HeaderBackground::before {
-    background-size: 40%;
-  }
-}
-@media screen and (max-width: 420px) {
-  /* line 7, ../sass/_HeaderBackground.scss */
-  .HeaderBackground::before {
-    background-size: 60%;
-  }
-}
-
 /* line 3, ../sass/_Triangle.scss */
 .Triangle {
   background-image: url("data:image/png;base64,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");
@@ -1076,9 +759,101 @@ figure {
 
 /* line 3, ../sass/_Footer.scss */
 .Footer {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
   background-color: #333;
-  min-height: 80px;
+  min-height: 120px;
+  color: white;
+  font-size: 25px;
   width: 100%;
+}
+/* line 11, ../sass/_Footer.scss */
+.Footer-about {
+  -webkit-flex-grow: 3;
+  flex-grow: 3;
+  padding: 60px;
+}
+/* line 16, ../sass/_Footer.scss */
+.Footer-about-body {
+  padding-top: 20px;
+  font-size: 15px;
+  color: #adadad;
+}
+/* line 21, ../sass/_Footer.scss */
+.Footer-about-bar {
+  font-size: 12px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+/* line 27, ../sass/_Footer.scss */
+.Footer-about-bar-item {
+  width: 30%;
+}
+/* line 32, ../sass/_Footer.scss */
+.Footer-contact {
+  -webkit-flex-grow: 1;
+  flex-grow: 1;
+  padding: 60px;
+}
+/* line 36, ../sass/_Footer.scss */
+.Footer-right {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  background-color: white;
+  height: 80px;
+  width: 100%;
+  font-size: 12px;
+}
+/* line 45, ../sass/_Footer.scss */
+.Footer-right-text {
+  border: 1px solid #e1e1e1;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  height: 32px;
+  width: 20%;
+  color: black;
+  border-radius: 3px;
+}
+@media screen and (max-width: 600px) {
+  /* line 45, ../sass/_Footer.scss */
+  .Footer-right-text {
+    width: 35%;
+  }
+}
+/* line 58, ../sass/_Footer.scss */
+.Footer-right-logo {
+  border: 1px solid #e1e1e1;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  height: 32px;
+  width: 20%;
+  background-color: #333;
+  border-radius: 5px;
+}
+@media screen and (max-width: 600px) {
+  /* line 58, ../sass/_Footer.scss */
+  .Footer-right-logo {
+    width: 35%;
+  }
 }
 
 /* line 3, ../sass/_CategoriesContainer.scss */
@@ -1139,10 +914,11 @@ figure {
   display: -webkit-flex;
   display: flex;
   background-size: cover;
+  background-color: #383838;
   background-blend-mode: overlay;
   height: 128px;
 }
-/* line 27, ../sass/_CategoryBox.scss */
+/* line 28, ../sass/_CategoryBox.scss */
 .CategoryBox-head-title {
   -webkit-align-self: center;
   align-self: center;
@@ -1150,28 +926,71 @@ figure {
   font-size: 20px;
   padding-right: 16px;
 }
-/* line 34, ../sass/_CategoryBox.scss */
+/* line 35, ../sass/_CategoryBox.scss */
 .CategoryBox-body {
   height: auto;
 }
-/* line 38, ../sass/_CategoryBox.scss */
+/* line 39, ../sass/_CategoryBox.scss */
 .CategoryBox-body li {
   padding: 3px 0px 3px 5px;
 }
-/* line 40, ../sass/_CategoryBox.scss */
+/* line 41, ../sass/_CategoryBox.scss */
 .CategoryBox-body li:hover {
   color: #0cb8a7;
   cursor: pointer;
 }
-/* line 45, ../sass/_CategoryBox.scss */
+/* line 46, ../sass/_CategoryBox.scss */
 .CategoryBox-body a {
   text-decoration: none;
   color: #0cb8a7;
 }
-/* line 48, ../sass/_CategoryBox.scss */
+/* line 49, ../sass/_CategoryBox.scss */
 .CategoryBox-body a:hover {
   color: #0ED8C5;
   cursor: pointer;
+}
+
+/* line 3, ../sass/_CategoryBoxSub.scss */
+.CategoryBoxSub {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: center;
+  justify-content: center;
+  background-color: #fff;
+  margin: 50px 0;
+  box-shadow: 0 0 11px 5px #d0d0d0;
+  background-color: #262521;
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+  height: auto;
+  width: 24%;
+}
+@media screen and (max-width: 640px) {
+  /* line 3, ../sass/_CategoryBoxSub.scss */
+  .CategoryBoxSub {
+    width: 100%;
+    margin: 20px 0;
+  }
+}
+/* line 19, ../sass/_CategoryBoxSub.scss */
+.CategoryBoxSub-head {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  background-size: cover;
+  background-color: #383838;
+  background-blend-mode: overlay;
+  height: 128px;
+}
+/* line 26, ../sass/_CategoryBoxSub.scss */
+.CategoryBoxSub-head-title {
+  -webkit-align-self: center;
+  align-self: center;
+  color: #fff;
+  font-size: 20px;
 }
 
 /* line 3, ../sass/_ContentMenu.scss */
@@ -1513,8 +1332,30 @@ figure {
   flex-wrap: wrap;
   background-color: #f6f7f8;
   padding: 25px 20px;
+  padding-bottom: 0px;
   width: 100%;
   margin-top: 0px;
+}
+/* line 13, ../sass/_ItemsContainer.scss */
+.ItemsContainer--filtespanelexpanded {
+  width: 70%;
+}
+@media screen and (max-width: 800px) {
+  /* line 13, ../sass/_ItemsContainer.scss */
+  .ItemsContainer--filtespanelexpanded {
+    width: 100%;
+  }
+}
+/* line 20, ../sass/_ItemsContainer.scss */
+.ItemsContainer-loader {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  width: 100%;
+  height: 200px;
 }
 
 /* line 3, ../sass/_TopMenu.scss */
@@ -1581,4 +1422,575 @@ figure {
 @font-face {
   font-family: 'OpenSans-ExtraBold';
   src: url("../fonts/OpenSans-ExtraBold.ttf") format("truetype");
+}
+/* line 4, ../sass/_FiltersPanel.scss */
+.FiltersPanel {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  background-color: #fff;
+  box-shadow: 0 0 11px 5px #d0d0d04d;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+/* line 13, ../sass/_FiltersPanel.scss */
+.FiltersPanel-header {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  border: 1px solid #e1e1e1;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  line-height: 50px;
+  background-color: #02CBBA;
+}
+/* line 22, ../sass/_FiltersPanel.scss */
+.FiltersPanel-header-title {
+  padding-right: 10px;
+  text-align: right;
+  -webkit-flex-grow: 4;
+  flex-grow: 4;
+}
+/* line 27, ../sass/_FiltersPanel.scss */
+.FiltersPanel-header-close {
+  -webkit-flex-grow: 1;
+  flex-grow: 1;
+  background-color: #02CBBA;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-position: center;
+  border-radius: 5px 0px 0px 5px;
+  cursor: pointer;
+  height: 48px;
+  max-width: 50px;
+  min-width: 50px;
+}
+/* line 39, ../sass/_FiltersPanel.scss */
+.FiltersPanel-header-collapse {
+  -webkit-flex-grow: 1;
+  flex-grow: 1;
+  background-color: #02CBBA;
+  font-size: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-position: center;
+  border-radius: 5px 0px 0px 5px;
+  cursor: pointer;
+  height: 48px;
+  max-width: 50px;
+  min-width: 50px;
+  display: none;
+}
+@media screen and (max-width: 800px) {
+  /* line 39, ../sass/_FiltersPanel.scss */
+  .FiltersPanel-header-collapse {
+    display: inline-block;
+  }
+}
+/* line 58, ../sass/_FiltersPanel.scss */
+.FiltersPanel-body {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 5px;
+  width: 100%;
+  background-color: white;
+}
+/* line 67, ../sass/_FiltersPanel.scss */
+.FiltersPanel-body-inputcontainer {
+  width: 95%;
+  max-width: 95%;
+  padding: 5px 0;
+}
+/* line 71, ../sass/_FiltersPanel.scss */
+.FiltersPanel-body-inputcontainer label {
+  color: #525C65;
+  font-size: 12px;
+}
+/* line 75, ../sass/_FiltersPanel.scss */
+.FiltersPanel-body-inputcontainer-text {
+  width: 100%;
+  border: 1px solid transparent;
+  color: #525C65;
+  border-bottom: 1px solid #525C65;
+  height: 35px;
+  font-size: 18px;
+  padding-bottom: 4px;
+  padding-top: 5px;
+}
+/* line 85, ../sass/_FiltersPanel.scss */
+.FiltersPanel-body-inputcontainer-select {
+  width: 100%;
+  font-size: 18px;
+  height: 35px;
+  border: 1px solid transparent;
+  background-color: #fff;
+  color: #525C65;
+  border-bottom: 1px solid #525C65;
+}
+/* line 97, ../sass/_FiltersPanel.scss */
+.FiltersPanel-footer {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-grow: 1;
+  flex-grow: 1;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: flex-end;
+  align-items: flex-end;
+  line-height: 50px;
+  width: 100%;
+  background-color: #02CBBA;
+}
+/* line 105, ../sass/_FiltersPanel.scss */
+.FiltersPanel-footer-searchbox {
+  background-color: #02CBBA;
+  background-image: url(../imgs/magnifier.svg);
+  background-repeat: no-repeat;
+  background-size: 22px 22px;
+  background-position: center;
+  border-radius: 5px 0px 0px 5px;
+  cursor: pointer;
+  height: 48px;
+  max-width: 50px;
+  min-width: 50px;
+}
+/* line 118, ../sass/_FiltersPanel.scss */
+.FiltersPanel textarea, .FiltersPanel input, .FiltersPanel button, .FiltersPanel select {
+  outline: none;
+}
+@media screen and (max-width: 640px) {
+  /* line 4, ../sass/_FiltersPanel.scss */
+  .FiltersPanel {
+    width: 100%;
+  }
+}
+
+/* line 1, ../sass/_CategoryBar.scss */
+.CategoryBar {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  width: 100%;
+  background-color: white;
+  font-size: 16px;
+  min-height: 60px;
+}
+/* line 11, ../sass/_CategoryBar.scss */
+.CategoryBar-item {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  height: 40px;
+  width: 21%;
+  margin: 0 5px;
+  color: #525C65;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* line 2, ../sass/_FullContainer.scss */
+.FullContainer {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+  height: 100%;
+}
+
+/* line 3, ../sass/_FiltersPanelContainer.scss */
+.FiltersPanelContianer {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  background-color: #f6f7f8;
+  padding: 25px 20px;
+  width: 30%;
+  margin-top: 0px;
+}
+@media screen and (max-width: 800px) {
+  /* line 3, ../sass/_FiltersPanelContainer.scss */
+  .FiltersPanelContianer {
+    width: 100%;
+  }
+}
+
+/* line 2, ../sass/_SignUpModule.scss */
+#SignUpModal {
+  display: none;
+}
+
+/* line 5, ../sass/_SignUpModule.scss */
+.u-textPrimaryColor {
+  display: inline-block;
+  color: #02CBBA;
+}
+
+/* line 9, ../sass/_SignUpModule.scss */
+.SignUpModule {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+  width: 35%;
+  background-color: white;
+}
+@media screen and (max-width: 700px) {
+  /* line 9, ../sass/_SignUpModule.scss */
+  .SignUpModule {
+    width: 80%;
+  }
+}
+/* line 18, ../sass/_SignUpModule.scss */
+.SignUpModule-header {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  text-align: center;
+  background-color: #02CBBA;
+  color: #fff;
+  width: 100%;
+  line-height: 50px;
+  font-size: 14px;
+}
+/* line 27, ../sass/_SignUpModule.scss */
+.SignUpModule-header-title {
+  padding-right: 10px;
+  text-align: right;
+  -webkit-flex-grow: 4;
+  flex-grow: 4;
+}
+/* line 32, ../sass/_SignUpModule.scss */
+.SignUpModule-header-close {
+  -webkit-flex-grow: 1;
+  flex-grow: 1;
+  background-color: #02CBBA;
+  background-image: url(../imgs/magnifier.svg);
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-position: center;
+  border-radius: 5px 0px 0px 5px;
+  cursor: pointer;
+  height: 48px;
+  max-width: 50px;
+  min-width: 50px;
+}
+/* line 46, ../sass/_SignUpModule.scss */
+.SignUpModule-body {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 5px;
+  width: 100%;
+  background-color: white;
+}
+/* line 54, ../sass/_SignUpModule.scss */
+.SignUpModule-body-inputcontainer {
+  width: 85%;
+  max-width: 95%;
+  padding: 5px 0;
+}
+/* line 58, ../sass/_SignUpModule.scss */
+.SignUpModule-body-inputcontainer label {
+  color: #525C65;
+  font-size: 12px;
+}
+/* line 62, ../sass/_SignUpModule.scss */
+.SignUpModule-body-inputcontainer-text {
+  width: 100%;
+  border: 1px solid transparent;
+  color: #525C65;
+  border-bottom: 1px solid #525C65;
+  height: 35px;
+  font-size: 18px;
+  padding-bottom: 4px;
+  padding-top: 5px;
+}
+/* line 72, ../sass/_SignUpModule.scss */
+.SignUpModule-body-inputcontainer-select {
+  width: 100%;
+  font-size: 18px;
+  height: 35px;
+  border: 1px solid transparent;
+  background-color: #fff;
+  color: #525C65;
+  border-bottom: 1px solid #525C65;
+}
+/* line 81, ../sass/_SignUpModule.scss */
+.SignUpModule-body-inputcontainer-checkboxcontainer {
+  margin-top: 26px;
+}
+/* line 84, ../sass/_SignUpModule.scss */
+.SignUpModule-body-inputcontainer-checkboxlabel {
+  vertical-align: middle;
+}
+/* line 89, ../sass/_SignUpModule.scss */
+.SignUpModule-body-btn {
+  box-shadow: 0 0 7px 0 #0032504d;
+  -moz-transition: all 150ms linear;
+  -o-transition: all 150ms linear;
+  -webkit-transition: all 150ms linear;
+  transition: all 150ms linear;
+  background-color: #525C65;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  height: 42px;
+  line-height: 32px;
+  margin-top: 40px;
+  padding: 6px 46px;
+  text-align: center;
+  text-align: center;
+  text-decoration: none;
+}
+/* line 104, ../sass/_SignUpModule.scss */
+.SignUpModule-body-btn:hover {
+  box-shadow: 0 0 15px 0 #0032504d;
+}
+/* line 109, ../sass/_SignUpModule.scss */
+.SignUpModule-footer {
+  margin-top: 40px;
+  background-color: white;
+  text-align: center;
+  background-color: white;
+  color: #525C65;
+  width: 100%;
+  line-height: 50px;
+  font-size: 14px;
+}
+
+/* line 3, ../sass/_SignUpModuleContainer.scss */
+.SignUpModuleContainer {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  width: 100%;
+}
+
+/* line 3, ../sass/_SignInModule.scss */
+#SignInModal {
+  display: none;
+}
+
+/* line 6, ../sass/_SignInModule.scss */
+.u-textPrimaryColor {
+  display: inline-block;
+  color: #02CBBA;
+}
+
+/* line 10, ../sass/_SignInModule.scss */
+.u-textCenter {
+  text-align: center;
+}
+
+/* line 13, ../sass/_SignInModule.scss */
+.SignInModule {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+  width: 35%;
+  background-color: white;
+}
+@media screen and (max-width: 700px) {
+  /* line 13, ../sass/_SignInModule.scss */
+  .SignInModule {
+    width: 80%;
+  }
+}
+/* line 22, ../sass/_SignInModule.scss */
+.SignInModule-header {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  text-align: center;
+  background-color: #02CBBA;
+  color: #fff;
+  width: 100%;
+  line-height: 50px;
+  font-size: 14px;
+}
+/* line 31, ../sass/_SignInModule.scss */
+.SignInModule-header-title {
+  padding-right: 10px;
+  text-align: right;
+  -webkit-flex-grow: 4;
+  flex-grow: 4;
+}
+/* line 36, ../sass/_SignInModule.scss */
+.SignInModule-header-close {
+  -webkit-flex-grow: 1;
+  flex-grow: 1;
+  background-color: #02CBBA;
+  background-image: url(../imgs/magnifier.svg);
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-position: center;
+  border-radius: 5px 0px 0px 5px;
+  cursor: pointer;
+  height: 48px;
+  max-width: 50px;
+  min-width: 50px;
+}
+/* line 50, ../sass/_SignInModule.scss */
+.SignInModule-body {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 5px;
+  width: 100%;
+  background-color: white;
+}
+/* line 58, ../sass/_SignInModule.scss */
+.SignInModule-body-inputcontainer {
+  width: 85%;
+  max-width: 95%;
+  padding: 5px 0;
+}
+/* line 62, ../sass/_SignInModule.scss */
+.SignInModule-body-inputcontainer label {
+  color: #525C65;
+  font-size: 12px;
+}
+/* line 66, ../sass/_SignInModule.scss */
+.SignInModule-body-inputcontainer-text {
+  width: 100%;
+  border: 1px solid transparent;
+  color: #525C65;
+  border-bottom: 1px solid #525C65;
+  height: 35px;
+  font-size: 18px;
+  padding-bottom: 4px;
+  padding-top: 5px;
+}
+/* line 76, ../sass/_SignInModule.scss */
+.SignInModule-body-inputcontainer-select {
+  width: 100%;
+  font-size: 18px;
+  height: 35px;
+  border: 1px solid transparent;
+  background-color: #fff;
+  color: #525C65;
+  border-bottom: 1px solid #525C65;
+}
+/* line 85, ../sass/_SignInModule.scss */
+.SignInModule-body-inputcontainer-checkboxcontainer {
+  margin-top: 26px;
+}
+/* line 88, ../sass/_SignInModule.scss */
+.SignInModule-body-inputcontainer-checkboxlabel {
+  vertical-align: middle;
+}
+/* line 93, ../sass/_SignInModule.scss */
+.SignInModule-body-btn {
+  box-shadow: 0 0 7px 0 #0032504d;
+  -moz-transition: all 150ms linear;
+  -o-transition: all 150ms linear;
+  -webkit-transition: all 150ms linear;
+  transition: all 150ms linear;
+  background-color: #525C65;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  height: 42px;
+  line-height: 32px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 6px 46px;
+  text-align: center;
+  text-align: center;
+  text-decoration: none;
+}
+/* line 109, ../sass/_SignInModule.scss */
+.SignInModule-body-btn:hover {
+  box-shadow: 0 0 15px 0 #0032504d;
+}
+/* line 114, ../sass/_SignInModule.scss */
+.SignInModule-footer {
+  margin-top: 40px;
+  background-color: white;
+  text-align: center;
+  background-color: white;
+  color: #525C65;
+  width: 100%;
+  line-height: 50px;
+  font-size: 14px;
+}
+
+/* line 3, ../sass/_SignInModuleContainer.scss */
+.SignInModuleContainer {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  width: 100%;
+}
+
+/* line 3, ../sass/_ModalContainer.scss */
+.ModalContainer {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  z-index: 999;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
 }

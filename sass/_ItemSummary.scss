@@ -5,9 +5,9 @@
 	@include flex-direction(column);
 	padding: 10px 0px;
 	width: 60%;
-	
+
 	@media screen and (max-width: $ItemBlock-width + 20px) {
-		min-height: 55%;
+		  min-height: 55%;
     	width: 100%;
   	}
 	&-head{
@@ -28,7 +28,7 @@
 			@include align-self(flex-end);
 			color: #7d97ad; //Same as used in illustrator
 			font-family: 'OpenSans-ExtraBold' !important;
-			font-size: 15px;	
+			font-size: 15px;
 			margin-right: auto;
 			margin-left: 10px;
 			&--text{
@@ -90,7 +90,7 @@
 			@include align-self(flex-end);
 			color: inherit;
 			font-weight: bold;
-			font-size: 15px;	
+			font-size: 15px;
 			font-family: 'OpenSans-Regular';
 			margin-right: auto;
 			margin-left: 10px;

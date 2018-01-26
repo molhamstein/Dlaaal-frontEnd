@@ -22,6 +22,7 @@
 	&-head{
 		@include display-flex;
 		background-size: cover;
+		background-color: #383838;
 		background-blend-mode: overlay;
 		height: 128px;
 		&-title{

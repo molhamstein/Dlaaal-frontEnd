@@ -1,8 +1,11 @@
 @import "compass";
 
 .MainContainer{
-	background: #02b2e3;
-	@include background-image(linear-gradient(to right, #02b2e3 0%, #02cbba 100%));
+	@include background-size(cover);
+	background-position: center center fixed;
+	background-image: url(../imgs/header.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
 	background-repeat: repeat;
 	// border-left: 1px solid #F0F0F0;
  	// border-right: 1px solid #F0F0F0;
